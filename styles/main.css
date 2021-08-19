@@ -1,5 +1,128 @@
-#fishtank {}
+@import "tips.css";
 
-.fish {}
+html {
+  background: url("/images/water.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-.fish__name {}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2vw;
+}
+
+header h1 {
+  line-height: 1em;
+  color: white;
+  text-align: center;
+  padding: 0 2em;
+  font-size: 3.2vw;
+  border-bottom: 3px solid gold;
+  width: 30vw;
+}
+
+header img {
+  width: 15vw;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  overflow: hidden;
+  background-color: rgb(100, 128, 128);
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: lightsalmon;
+}
+nav a:active {
+  color: lightgreen;
+}
+
+h2 {
+  text-align: center;
+  color: gold;
+}
+
+.fishTank {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 3px solid silver;
+}
+
+.fish-card {
+  margin: 1vw;
+  max-width: 100vw;
+  color: white;
+}
+
+.fish-card ul {
+  list-style-type: none;
+  padding: 1vw 1vw;
+  font-size: 2vw;
+}
+
+.fish-image {
+  width: 25vw;
+  height: auto;
+}
+
+.section-main {
+  margin: 1em;
+}
+
+.tipsList {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  padding: 1vw 1vw;
+  border: 3px solid silver;
+  color: white;
+}
+
+.locationList {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  padding: 1vw 1vw;
+  border: 3px solid silver;
+  color: white;
+}
+
+footer {
+  background-color: darkcyan;
+  color: whitesmoke;
+  text-align: center;
+}
